@@ -28,7 +28,7 @@ A browser-based chat interface that runs the DeepSeek-R1-Distill-Qwen-1.5B-ONNX 
 
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/iSaurabhAnand/webGPU_local_R1.git
 
 # Install dependencies
 npm install
