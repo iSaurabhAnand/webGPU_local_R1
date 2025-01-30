@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek Chat</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <h1 class="chat-title">Local DeepSeek Chat</h1>
+        <div class="chat-messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ask DeepSeek...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <div id="loading-spinner" class="spinner-hidden">
+        <div class="spinner"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
